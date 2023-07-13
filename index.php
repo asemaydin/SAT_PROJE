@@ -9,13 +9,15 @@
     <title>Hastane Otomasyon</title>  
 </head>
 
-<body>
+<!-- body elementlerinin eklenmesi -->
+<body>                      
     <header>
+        <!-- başlık eklenmesi -->
         <header>
             <h2>Hastane Otomasoyn</h2>
         </header>
 
-        
+        <!-- buttonların ve inputların eklenmesi -->
         <div class="tableOuter">
             <h1>Giriş Yap</h1>
             <form action="islem.php" method="post">
@@ -28,6 +30,7 @@
                 <button type="submit" class="sub">Giriş Yap</button>
                 <br>
             </form>
+            <!-- üye ol butonuna basıldığında üye ol formuna yönlendiren kod parçası -->
             <a href="uye.php"><button type="submit" class="sub"> Üye Ol </button></a>
         </div>
     </header>
