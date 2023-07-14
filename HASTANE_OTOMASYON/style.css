@@ -170,6 +170,7 @@ background: #ff6b6b ;
     opacity: 0.8;
 
 }
+/* randevu divinin konumlandırılması ve özelliklerinin verilmesi */
 #randevu_div{
     left: 50px;
 }
@@ -187,4 +188,21 @@ background: #ff6b6b ;
 #ailehekimi_div h3{
     text-align: center;
     font-size: 28px;
+}
+
+select,
+#randevu_div input,
+button {
+    position: relative;
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+    background: #9F81B3;
+    color: #292830e7;
+    cursor: pointer;
+}
+
+#randevu_div form {
+    position: relative;
+    top: 50px;
 }
