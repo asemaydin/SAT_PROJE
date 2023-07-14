@@ -14,7 +14,7 @@
     <header>
         <!-- başlık eklenmesi -->
         <header>
-            <h2>Hastane Otomasoyn</h2>
+            <h2>Hastane Otomasyon</h2>
         </header>
 
         <!-- buttonların ve inputların eklenmesi -->
