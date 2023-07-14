@@ -27,11 +27,11 @@
                 <div class="pass">
                     <input type="password" name="password" placeholder="Şifre">
                 </div>
-                <button type="submit" class="sub">Giriş Yap</button>
+                <button type="submit" class="sub" id="giris">Giriş Yap</button>
                 <br>
             </form>
             <!-- üye ol butonuna basıldığında üye ol formuna yönlendiren kod parçası -->
-            <a href="uye.php"><button type="submit" class="sub"> Üye Ol </button></a>
+            <a href="uye.php"><button type="submit" class="sub" id="uye"> Üye Ol </button></a>
         </div>
     </header>
 </body>
