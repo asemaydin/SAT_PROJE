@@ -114,24 +114,123 @@
         <option value="Acıbadem Hastanesi">Acıbadem Hastanesi</option>
         <option value="Bölge Eğitim ve Araştırma Hastanesi">Bölge Eğitim ve Araştırma Hastanesi</option>
         <option value="Akdamar Hastanesi">Akdamar Hastanesi</option>
-        <option value="Hayat Hastanesi">Hayat Hastanesi</option>
+        <option value="Şifa Hastanesi">Şifa Hastanesi</option>
+        <option value="Yaşam Hastanesi">Yaşam Hastanesi</option>
+        <option value="Sağlık Merkezi Hastanesi">Sağlık Merkezi Hastanesi</option>
+        <option value="Nil Tıp Merkezi">Nil Tıp Merkezi</option>
+        <option value="Sema Hastanesi">Sema Hastanesi</option>
+        <option value="Meltem Hastanesi">Meltem Hastanesi</option>
+        <option value="Deniz Tıp Merkezi">Deniz Tıp Merkezi</option>
+        <option value="Yıldız Hastanesi">Yıldız Hastanesi</option>
+        <option value="Esenlik Tıp Merkezi">Esenlik Tıp Merkezi</option>
+        <option value="Özgür Hastanesi">Özgür Hastanesi</option>
+        <option value="Sıhhat Medikal Merkezi">Sıhhat Medikal Merkezi</option>
+        <option value="Medplus Tıp Merkezi">Medplus Tıp Merkezi</option>
+        <option value="Sağlık Vadisi Hastanesi">Sağlık Vadisi Hastanesi</option>
+        <option value="Fatih Devlet Hastanesi">Fatih Devlet Hastanesi</option>
+        <option value="Şişli Etfal Hastanesi">Şişli Etfal Hastanesi</option>
+        <option value="Berhayat Hastanesi">Berhayat Hastanesi</option>
+        <option value="Pendik Devlet Hastanesi">Pendik Devlet Hastanesi</option>
+        <option value="Bursa Şehir Hastanesi">Bursa Şehir Hastanesi</option>
+        <option value="Edirnekapı Araştırma Hastanesi">Edirnekapı Araştırma Hastanesi</option>
+        <option value="Şevket Candal Eğitim ve Araştırma Hastanesi">Şevket Candal Eğitim ve Araştırma Hastanesi</option>
+        <option value="Medipol Hastanesi">Medipol Hastanesi</option>
+
     </select>
 <!-- kliniklerin eklenmesi -->
 <select name="klinik" class="klinik">
         <option value="klinik">Klinik Seçin</option>
-        <option value="Dahiliye">Dahiliye</option>
-        <option value="Göz Hastalıkları">Göz Hastalıkları</option>
-        <option value="Kulak Burun Boğaz">Kulak Burun Boğaz</option>
-        <option value="Ortopedi">Ortopedi</option>
+        <option value="Dahiliye Polikliniği">Dahiliye Polikliniği</option>
+        <option value="Göz Polikliniği">Göz Polikliniği</option>
+        <option value="Kulak Burun Boğaz Polikliniği">Kulak Burun Boğaz Polikliniği</option>
+        <option value="Dermatoloji Polikliniği">Dermatoloji Polikliniği</option>
+        <option value="Kadın Hastalıkları ve Doğum Polikliniği">Kadın Hastalıkları ve Doğum Polikliniği</option>
+        <option value="Ortopedi Polikliniği">Ortopedi Polikliniği</option>
+        <option value="Üroloji Polikliniği">Üroloji Polikliniği</option>
+        <option value="Nöroloji Polikliniği">Nöroloji Polikliniği</option>
+        <option value="Kardiyoloji Polikliniği">Kardiyoloji Polikliniği</option>
+        <option value="Radyoloji Polikliniği">Radyoloji Polikliniği</option>
+        <option value="Genel Cerrahi Polikliniği">Genel Cerrahi Polikliniği</option>
+        <option value="Pediatri Polikliniği">Pediatri Polikliniği</option>
+        <option value="Enfeksiyon Hastalıkları Polikliniği">Enfeksiyon Hastalıkları Polikliniği</option>
+        <option value="Fizik Tedavi ve Rehabilitasyon Polikliniği">Fizik Tedavi ve Rehabilitasyon Polikliniği</option>
+        <option value="Gastroenteroloji Polikliniği">Gastroenteroloji Polikliniği</option>
+        <option value="Plastik Cerrahi Polikliniği">Plastik Cerrahi Polikliniği</option>
+        <option value="Psikiyatri Polikliniği">Psikiyatri Polikliniği</option>
+        <option value="Göğüs Hastalıkları Polikliniği">Göğüs Hastalıkları Polikliniği</option>
+        <option value="Endokrinoloji Polikliniği">Endokrinoloji Polikliniği</option>
+        <option value="Hematoloji Polikliniği">Hematoloji Polikliniği</option>
+        <option value="KBB Polikliniği">KBB Polikliniği</option>
+        <option value="Göğüs Cerrahisi Polikliniği">Göğüs Cerrahisi Polikliniği</option>
+        <option value="Nefroloji Polikliniği">Nefroloji Polikliniği</option>
+        <option value="Onkoloji Polikliniği">Onkoloji Polikliniği</option>
+        <option value="Klinik Mikrobiyoloji Polikliniği">Klinik Mikrobiyoloji Polikliniği</option>
+        <option value="Oftalmoloji Polikliniği">Oftalmoloji Polikliniği</option>
+        <option value="Diş Polikliniği">Diş Polikliniği</option>
+        <option value="Kadın Hastalıkları ve Doğum Polikliniği">Kadın Hastalıkları ve Doğum Polikliniği</option>
+        <option value="Nöroloji Polikliniği">Nöroloji Polikliniği</option>
+        <option value="Dermatoloji Polikliniği">Dermatoloji Polikliniği</option>
+        <option value="Genel Cerrahi Polikliniği">Genel Cerrahi Polikliniği</option>
+        <option value="Ortopedi Polikliniği">Ortopedi Polikliniği</option>
+        <option value="Pediatri Polikliniği">Pediatri Polikliniği</option>
+        <option value="Fizik Tedavi ve Rehabilitasyon Polikliniği">Fizik Tedavi ve Rehabilitasyon Polikliniği</option>
+        <option value="Gastroenteroloji Polikliniği">Gastroenteroloji Polikliniği</option>
+        <option value="Psikiyatri Polikliniği">Psikiyatri Polikliniği</option>
+        <option value="Enfeksiyon Hastalıkları Polikliniği">Enfeksiyon Hastalıkları Polikliniği</option>
+        <option value="KBB Polikliniği">KBB Polikliniği</option>
+        <option value="Plastik Cerrahi Polikliniği">Plastik Cerrahi Polikliniği</option>
+        <option value="Radyoloji Polikliniği">Radyoloji Polikliniği</option>
+        <option value="Göğüs Hastalıkları Polikliniği">Göğüs Hastalıkları Polikliniği</option>
+        <option value="Klinik Psikoloji Polikliniği">Klinik Psikoloji Polikliniği</option>
+        <option value="İç Hastalıkları Polikliniği">İç Hastalıkları Polikliniği</option>
+
     </select>
 <!-- doktorların eklenmesi -->
  <select name="doktor" class="doktor">
         <option value="doktor">Doktor Seçin</option>
-        <option value="Muhammet Asem Aydin">Muhammet Asem Aydin</option>
-        <option value="Ömer Faruk Yangıncı">Ömer Faruk Yangıncı</option>
-        <option value="Ayazbey Yaka">Ayazbey Yaka</option>
-        <option value="Yunus Emre Bilgin">Yunus Emre Bilgin</option>
-        <option value="Şervan Erkan">Şervan Erkan</option>
+        <option value="Dr.Esra Turgut">Dr.Esra Turgut</option>
+        <option value="Dr.Muhammet Asem Aydin">Dr.Muhammet Asem Aydin</option>
+        <option value="Dr.Ömer Faruk Yangıncı">Dr.Ömer Faruk Yangıncı</option>
+        <option value="Dr.Ayazbey Yaka">Dr.Ayazbey Yaka</option>
+        <option value="Dr.Yunus Emre Bilgin">Dr.Yunus Emre Bilgin</option>
+        <option value="Dr.Kerem Önal">Dr.Kerem Önal</option>
+        <option value="Dr.Emir Kaan Uzun">Dr.Emir Kaan Uzun</option>
+        <option value="Dr.Ahmet Işık">Dr.Ahmet Işık</option>
+        <option value="Dr.Mustafa Balaban">Dr.Mustafa Balaban</option>
+        <option value="Dr.Muhammet Ali Kerdiğe">Dr.Muhammet Ali Kerdiğge</option>
+        <option value="Dr.Şervan Erkan">Dr.Şervan Erkan</option>
+        <option value="Dr.Elif Sıla Kuyucu">Dr.Elif Sıla Kuyucu</option>
+        <option value="Dr. Ahmet Yılmaz">Dr. Ahmet Yılmaz</option>
+        <option value="Dr. Ayşe Kaya">Dr. Ayşe Kaya</option>
+        <option value="Dr. Mehmet Demir">Dr. Mehmet Demir</option>
+        <option value="Dr. Elif Öztürk">Dr. Elif Öztürk</option>
+        <option value="Dr. Ali Güneş">Dr. Ali Güneş</option>
+        <option value="Dr. Fatma Çelik">Dr. Fatma Çelik</option>
+        <option value="Dr. Hasan Aksoy">Dr. Hasan Aksoy</option>
+        <option value="Dr. Zeynep Özdemir">Dr. Zeynep Özdemir</option>
+        <option value="Dr. Emre Kılıç">Dr. Emre Kılıç</option>
+        <option value="Dr. Esra Kaya">Dr. Esra Kaya</option>
+        <option value="Dr. Mustafa Arslan">Dr. Mustafa Arslan</option>
+        <option value="Dr. Selin Başaran">Dr. Selin Başaran</option>
+        <option value="Dr. İbrahim Demir">Dr. İbrahim Demir</option>
+        <option value="Dr. Nilay Yıldız">Dr. Nilay Yıldız</option>
+        <option value="Dr. Cemal Durmuş">Dr. Cemal Durmuş</option>
+        <option value="Dr. Aysel Aydın">Dr. Aysel Aydın</option>
+        <option value="Dr. Murat Yılmaz">Dr. Murat Yılmaz</option>
+        <option value="Dr. Şule Akın">Dr. Şule Akın</option>
+        <option value="Dr. Hakan Özcan">Dr. Hakan Özcan</option>
+        <option value="Dr. Aylin Öztürk">Dr. Aylin Öztürk</option>
+        <option value="Dr. Emine Yıldırım">Dr. Emine Yıldırım</option>
+        <option value="Dr. Serkan Güler">Dr. Serkan Güler</option>
+        <option value="Dr. Ebru Durmaz">Dr. Ebru Durmaz</option>
+        <option value="Dr. Volkan Korkmaz">Dr. Volkan Korkmaz</option>
+        <option value="Dr. Şeyma Doğan">Dr. Şeyma Doğan</option>
+        <option value="Dr. İsmail Çelik">Dr. İsmail Çelik</option>
+        <option value="Dr. Nazlı Yılmaz">Dr. Nazlı Yılmaz</option>
+        <option value="Dr. Eren Şahin">Dr. Eren Şahin</option>
+        <option value="Dr. Gizem Yıldız">Dr. Gizem Yıldız</option>
+        <option value="Dr. Ahmet Aydın">Dr. Ahmet Aydın</option>
+
      </select>
 <!-- randevu kısmı ile bağlantı -->
      <input type="hidden" name="kullanici_id" value="<?php echo $kullanicicek['kullanici_id']; ?>">
