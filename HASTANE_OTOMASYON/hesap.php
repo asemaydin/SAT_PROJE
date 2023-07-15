@@ -15,30 +15,12 @@
     <div class="hesabim_content">
 
         <div class="label">
-            <label for="">AD</label>
-            <input type="text">
+            <label for="">AD SOYADI</label>
+            <input type="text" placeholder="<?php echo $kullanicicek['kullanici_adsoyad'];?>">
         </div> <br>
-
         <div class="label">
-            <label for="">SOYAD</label>
-            <input type="text">
+            <label for="">T.C NO</label>
+            <input type="text" placeholder="<?php echo $kullanicicek['kullanici_tc'];?>">
         </div> <br>
-
-        <div class="label">
-            <label for="">T.C.NO</label>
-            <input type="text">
-        </div> <br>
-
-        <div class="label">
-            <label for="">TELEFON NO</label>
-            <input type="text">
-        </div> <br>
-
-        <div class="label">
-            <label for="">MAIL</label>
-            <input type="text">
-        </div> <br>
-    <button type="submit">Güncelle</button>
-    </div>
 </body>
 </html>

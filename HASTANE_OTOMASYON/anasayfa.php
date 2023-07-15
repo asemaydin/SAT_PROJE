@@ -133,6 +133,8 @@
         <option value="Yunus Emre Bilgin">Yunus Emre Bilgin</option>
         <option value="Şervan Erkan">Şervan Erkan</option>
      </select>
+<!-- randevu kısmı ile bağlantı -->
+     <input type="hidden" name="kullanici_id" value="<?php echo $kullanicicek['kullanici_id']; ?>">
 
      <button name="randevu_kaydet">Randevu Kaydet</button>
       

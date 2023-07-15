@@ -55,4 +55,34 @@ if (isset($_POST['giris_yap'])) {
         exit;
     }
 }
+// randevu kaydet özelliklerinin oluşturulması
+if (isset($_POST['randevu_kaydet'])) {
+    $randevu_sehir = isset($_POST['sehir']) ? $_POST['sehir'] : null;
+    $randevu_hastane= isset($_POST['hastane']) ? $_POST['hastane'] : null;
+    $randevu_doktor = isset($_POST['doktor']) ? $_POST['doktor'] : null;
+    $randevu_tarih= isset($_POST['tarih']) ? $_POST['tarih'] : null;
+    $randevu_klinik = isset($_POST['klinik']) ? $_POST['klinik'] : null;
+    $randevu_hasta_id = isset($_POST['kullanici_id']) ? $_POST['kullanici_id'] : null;
+    
+
+    $kaydet=$db->prepare("INSERT INTO randevu SET
+        randevu_Sehir = ?,
+        randevu_hastane = ?,
+        randevu_doktor = ?,
+        randevu_tarih = ?,
+        randevu_klinik = ?,
+        randevu_hasta_id = ?
+    ");
+// kayıtın basarılı olup olmadığını denetleyen kodlar
+    $insert=$kaydet->execute([
+        $randevu_sehir, $randevu_hastane, $randevu_doktor, $randevu_tarih, $randevu_klinik, $randevu_hasta_id
+    ]);
+    if ($insert) {
+        header("location:anasayfa.php?kayıt_basarili");        
+    } else{
+        header("location:anasayfa.php?kayıt_basarisiz");
+    }
+}
+
+
 ?>
