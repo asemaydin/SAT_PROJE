@@ -1,7 +1,13 @@
 <!-- php taglarının açılması  -->
 <?php
+// giriş çıkış işlemleri için sessionlar ekliyoruz
+
+ob_start();
+session_start();
 
 
+// veritabanı içeren baglan.php include ettik
+include 'baglan.php';
 
 
 ?>
