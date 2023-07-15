@@ -45,8 +45,10 @@ if ($say==0) {
             <a href="randevu.php"><h5>Randevu Bilgileri</h5></a>
         </div>
     </div>
-    <div class="cikis">
+    <!-- cıkıs yapmak için gerekli html kodları ve logout phpnin bağlanması -->
+    <a href="logout.php"> <div class="cikis">
+
         Çıkış Yap
-    </div>
+    </div></a>
 </body>
 </html>
