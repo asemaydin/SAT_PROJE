@@ -12,7 +12,10 @@
 <body>
 <!-- anasayfa tasarımı için divlerin eklenmesi -->
 <div class="adsoyad">
-    <h4>Sn. Ad Soyad</h4>
+    <!-- header.phpde yazdığımız sorguyu h4 içine çekiyoruz ki sisteme giriş yapıldığında sn.ad soyad bölümü veritabanından, girilen kullanıcıya göre çekilebilsin -->
+    <h4>
+     Sn. <?php echo $kullanicicek['kullanici_adsoyad']; ?>
+    </h4> 
 </div>
 <!-- orta divlerin eklenmesi -->
 <div class="orta_div" id="randevu_div">
