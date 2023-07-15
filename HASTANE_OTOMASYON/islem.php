@@ -33,6 +33,26 @@ if(isset($_POST["kullanicikaydet"])){
 
 
 }
+// kullanıcı doğrulaması yaptıran php komutları 
+if (isset($_POST['giris_yap'])) {
+    $kullanici_tc = $_POST['kullanici_tc'];
+    $kullanici_password = $_POST['kullanici_password'];
+    
 
-
+    $kullanicisor = $db->prepare("SELECT * FROM kullanici WHERE kullanici_tc=:kullanici_tc and kullanici_password=:kullanici_password");
+    $kullanicisor-> execute([
+        'kullanici_tc' =>$kullanici_tc,
+        'kullanici_password' => $kullanici_password
+    ]);
+// giriş doğrulaması ve yönlendirmesi yaptıran php komutları
+    $say = $kullanicisor->rowCount();
+    if ($say==1) {
+        $_SESSION['userkullanici_tc']=$kullanici_tc;
+        header('location:anasayfa.php?durum=girisbasarili');
+        exit;
+    }else {
+        header('location:index.php?durum=basarisizgiris');
+        exit;
+    }
+}
 ?>
