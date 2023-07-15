@@ -27,7 +27,7 @@
                 <div class="pass">
                     <input type="password" name="password" placeholder="Şifre">
                 </div>
-                <button type="submit" class="sub" id="giris">Giriş Yap</button>
+                <button type="submit" class="sub" id="giris" name="giris_yap">Giriş Yap</button>
                 <br>
             </form>
             <!-- üye ol butonuna basıldığında üye ol formuna yönlendiren kod parçası -->

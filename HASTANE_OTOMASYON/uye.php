@@ -30,7 +30,7 @@
                 <div class="pass">
                     <input type="password" name="password" placeholder="Şifre">
                 </div>
-                <button type="submit" class="sub" id="giris">Üye Ol</button>
+                <button type="submit" class="sub" id="giris" name="kullanicikaydet">Üye Ol</button>
                 <br>
             </form>
             <!-- geri çık  butonuna basıldığında giriş yap formuna yönlendiren kod parçası -->
