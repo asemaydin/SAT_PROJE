@@ -5,6 +5,19 @@
 ob_start();
 session_start();
 
+// giriş yapmadan anasayfa.phpye girilmesini engelleyene komut satırı
+$kullanicisor=$db->prepare("SELECT * FROM kullanici WHERE kullanici_tc=:kullanici_tc");
+$kullanicisor->execute([
+    'kullanici_tc' => $_SESSION['userkullanici_tc']
+]);
+
+$say=$kullanicisor->rowCount();
+$kullanicicek=$kullanicisor->fetch(PDO::FETCH_ASSOC);
+if ($say=0) {
+    header('location:index.php?izinsiz');
+    exit;
+}
+
 
 // veritabanı içeren baglan.php include ettik
 include 'baglan.php';

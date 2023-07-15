@@ -16,7 +16,7 @@ if(isset($_POST["kullanicikaydet"])){
 
         $sorgu = $db->prepare('INSERT INTO kullanici SET
             kullanici_tc = ?,
-            kullanici_adsoyad =?,
+            kullanici_adsoyad = ?,
             kullanici_password = ?
         ');
         $ekle = $sorgu->execute([
@@ -48,7 +48,7 @@ if (isset($_POST['giris_yap'])) {
     $say = $kullanicisor->rowCount();
     if ($say==1) {
         $_SESSION['userkullanici_tc']=$kullanici_tc;
-        header('location:anasayfa.php?durum=girisbasarili');
+        header( 'location:anasayfa.php?durum=girisbasarili');
         exit;
     }else {
         header('location:index.php?durum=basarisizgiris');
